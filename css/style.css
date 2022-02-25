@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.images {
+  max-width: 500px;
+}
+
+.image {
+  display: inline-block;
+  position: absolute;
+  max-width: 250px;
+  padding: 10px;
+}
+
+.image > img {
+  width: 100%;
+}
+
+.image > span {
+  position: absolute;
+  color: white;
+  bottom: 25px;
+  right: 25px;
+}/*# sourceMappingURL=style.css.map */
